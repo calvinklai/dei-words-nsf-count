@@ -11,8 +11,9 @@ library(stringr)
 library(dplyr)
 
 # Load the document
-setwd("C:/Users/Calvin/Box/applications/24_NSF_DRK-12")
-doc_path <- "PROJECT DESCRIPTION_FINAL.docx"
+# NOTE: Change setwd() and doc_path to your directory and file name, respectively.
+setwd("YOURDIRECTORY")
+doc_path <- "YOURFILENAME.docx"
 doc <- read_docx(doc_path)
 
 # Extract text from paragraphs
